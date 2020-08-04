@@ -2,8 +2,7 @@ const {google} = require('googleapis');
 const cred = require('./credentials.json');
 var valueToInsert = 3;
 const client = new google.auth.JWT(
-  cred.client_email,null,cred.private_key,
-  ['https://www.googleapis.com/auth/spreadsheets']
+  //removi elementos da minha conta para a minha segurança
 );
 
 module.exports.Authorize = client.authorize(function(email){
@@ -21,8 +20,7 @@ module.exports.Authorize = client.authorize(function(email){
 async function spreadsheetRun(client){
   const gsApi = google.sheets({version:'v4',auth:client});
   const options = {
-    spreadsheetId:"1eShVCCHEAzxarlMRrIfQTh5R_BTa25HKiOEKYhLXyzU",
-    range:'MailListPBS!A1:A100'
+    //removi elementos da minha conta para a minha segurança
   };
   let data = await gsApi.spreadsheets.values.get(options);
   console.log(data.data.values);
@@ -30,8 +28,7 @@ async function spreadsheetRun(client){
 async function UpdateInSheet(client,dataArray){
   const gsApi = google.sheets({version:'v4',auth:client});
   const options = {
-    spreadsheetId:"1eShVCCHEAzxarlMRrIfQTh5R_BTa25HKiOEKYhLXyzU",
-    range:'MailListPBS!A1',
+    //removi elementos da minha conta para a minha segurança
     valueInputOption: "USER_ENTERED",
     resource:{ values : dataArray }
   };
