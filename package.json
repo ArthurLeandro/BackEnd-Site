@@ -1,0 +1,40 @@
+{
+  "name": "paperboardstudios.github.io",
+  "version": "1.0.0",
+  "description": "This is the server for an indie game development studio called Paper Board Studios",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperBoardStudios/PaperBoardStudios.github.io.git"
+  },
+  "keywords": [
+    "indie-dev",
+    "game",
+    "game-development",
+    "game-dev",
+    "Paper-Board-Studios",
+    "Tarium",
+    "Despertar-das-Cinzas"
+  ],
+  "author": "Arthur Santos Leandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaperBoardStudios/PaperBoardStudios.github.io/issues"
+  },
+  "homepage": "https://github.com/PaperBoardStudios/PaperBoardStudios.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "localtunnel": "^2.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}
