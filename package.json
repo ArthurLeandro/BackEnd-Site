@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/PaperBoardStudios/PaperBoardStudios.github.io#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "googleapis": "^39.2.0",
     "localtunnel": "^2.0.0"
   },
