@@ -28,7 +28,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "ejs": "^3.0.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "googleapis": "^39.2.0",
     "localtunnel": "^2.0.0"
   },
